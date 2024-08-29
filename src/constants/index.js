@@ -1,8 +1,6 @@
+const example = 'https://cdn-icons-png.freepik.com/512/5167/5167510.png'
+
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -15,10 +13,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -42,20 +36,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "example 1 Developer",
+    icon: example,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "example 2 Developer",
+    icon: example,
   },
   {
-    title: "Frontend Developer",
-    icon: creator,
+    title: "example 3 Developer",
+    icon: example,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "example 4 Developer",
+    icon: example,
   }
 ];
 
@@ -116,55 +110,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Example Stack Developer",
+    company_name: "Company Example",
+    icon: example,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "date - example",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Example Stack Developer",
+    company_name: "Company Example",
+    icon: example,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "date - example",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Example Stack Developer",
+    company_name: "Company Example",
+    icon: example,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "date - example",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Example Stack Developer",
+    company_name: "Company Example",
+    icon: example,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "date - example",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
     ],
   },
 ];
