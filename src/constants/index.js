@@ -170,15 +170,15 @@ const projects = [
       "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "techUsed",
+        name: "techUsed1",
         color: "blue-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed2",
         color: "green-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed3",
         color: "pink-text-gradient",
       },
     ],
@@ -191,15 +191,15 @@ const projects = [
       "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "techUsed",
+        name: "techUsed4",
         color: "blue-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed5",
         color: "green-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed6",
         color: "pink-text-gradient",
       },
     ],
@@ -212,15 +212,15 @@ const projects = [
       "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "techUsed",
+        name: "techUsed7",
         color: "blue-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed8",
         color: "green-text-gradient",
       },
       {
-        name: "techUsed",
+        name: "techUsed9",
         color: "pink-text-gradient",
       },
     ],

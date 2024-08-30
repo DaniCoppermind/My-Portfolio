@@ -1,16 +1,13 @@
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from 'react-vertical-timeline-component'
-import { motion } from 'framer-motion'
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { motion } from 'framer-motion';
 
-import 'react-vertical-timeline-component/style.min.css'
+import 'react-vertical-timeline-component/style.min.css';
 
-import { styles } from '../styles'
-import { experiences } from '../constants'
-import { SectionWrapper } from '../hoc'
-import { textVariant } from '../utils/motion'
-import { ExperienceIcon } from './ExperienceIcon'
+import { styles } from '../styles';
+import { experiences } from '../constants';
+import { SectionWrapper } from '../hoc';
+import { textVariant } from '../utils/motion';
+import { ExperienceIcon } from './ExperienceIcon';
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -27,28 +24,22 @@ const ExperienceCard = ({ experience }) => {
       icon={<ExperienceIcon experience={experience} />}
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
+        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
           {experience.company_name}
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
+          <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
             {point}
           </li>
         ))}
       </ul>
     </VerticalTimelineElement>
-  )
-}
+  );
+};
 
 const Experience = () => {
   return (
@@ -58,18 +49,15 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
+            <ExperienceCard key={`experience-${index}`} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Experience, 'work')
+export default SectionWrapper(Experience, 'work');
