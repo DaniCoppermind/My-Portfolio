@@ -1,23 +1,8 @@
 const example = 'https://cdn-icons-png.freepik.com/512/5167/5167510.png'
 
-import {
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+// import {
+
+// } from "../assets";
 
 export const navLinks = [
   {
@@ -56,55 +41,55 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: example,
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: example,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: example,
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: example,
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: example,
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: example,
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: example,
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: example,
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: example,
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: example,
   },
   {
     name: "git",
-    icon: git,
+    icon: example,
   },
   {
     name: "figma",
-    icon: figma,
+    icon: example,
   },
   {
     name: "docker",
-    icon: docker,
+    icon: example,
   },
 ];
 
@@ -180,66 +165,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Example Work",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "react",
+        name: "techUsed",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "techUsed",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "techUsed",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: example,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Example Work",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "react",
+        name: "techUsed",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "techUsed",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "techUsed",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: example,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Example Work",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "lorem ipsum example to description about what i work in the project and others stuff idk",
     tags: [
       {
-        name: "nextjs",
+        name: "techUsed",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "techUsed",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "techUsed",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: example,
     source_code_link: "https://github.com/",
   },
 ];
