@@ -40,6 +40,11 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+  {
+    id: 'cv',
+    title: 'CV',
+    ref: '../../public/cv.pdf' 
+  }
 ];
 
 const services = [
