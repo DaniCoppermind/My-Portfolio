@@ -3,7 +3,6 @@ import {
   mobile,
   backend,
   creator,
-  javascript,
   typescript,
   reactjs,
   tailwind,
@@ -61,10 +60,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
   {
     name: 'Tailwind CSS',
     icon: tailwind,

@@ -7,7 +7,6 @@ import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
 
-import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
@@ -37,7 +36,6 @@ export {
   github,
   menu,
   close,
-  javascript,
   tailwind,
   typescript,
   reactjs,
