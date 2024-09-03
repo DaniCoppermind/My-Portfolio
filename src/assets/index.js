@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import x from "./x.png";
+import linkedin from "./linkedin.png";
+import telegram from "./telegram.png";
+import whatsapp from "./whatsapp.png";
+
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  x,
+  linkedin,
+  telegram,
+  whatsapp,
 };

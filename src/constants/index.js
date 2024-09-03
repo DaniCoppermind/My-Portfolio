@@ -1,232 +1,256 @@
-const example = 'https://cdn-icons-png.freepik.com/512/5167/5167510.png'
+const example = 'https://cdn-icons-png.freepik.com/512/5167/5167510.png';
 
-// import {
-
-// } from "../assets";
+import { github, linkedin, x, whatsapp, telegram } from '../assets';
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: 'about',
+    title: 'About',
   },
   {
-    id: "work",
-    title: "Work",
+    id: 'work',
+    title: 'Work',
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: 'contact',
+    title: 'Contact',
   },
 ];
 
 const services = [
   {
-    title: "example 1 Developer",
+    title: 'example 1 Developer',
     icon: example,
   },
   {
-    title: "example 2 Developer",
+    title: 'example 2 Developer',
     icon: example,
   },
   {
-    title: "example 3 Developer",
+    title: 'example 3 Developer',
     icon: example,
   },
   {
-    title: "example 4 Developer",
+    title: 'example 4 Developer',
     icon: example,
-  }
+  },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: 'HTML 5',
     icon: example,
   },
   {
-    name: "CSS 3",
+    name: 'CSS 3',
     icon: example,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: example,
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     icon: example,
   },
   {
-    name: "React JS",
+    name: 'React JS',
     icon: example,
   },
   {
-    name: "Redux Toolkit",
+    name: 'Redux Toolkit',
     icon: example,
   },
   {
-    name: "Tailwind CSS",
+    name: 'Tailwind CSS',
     icon: example,
   },
   {
-    name: "Node JS",
+    name: 'Node JS',
     icon: example,
   },
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: example,
   },
   {
-    name: "Three JS",
+    name: 'Three JS',
     icon: example,
   },
   {
-    name: "git",
+    name: 'git',
     icon: example,
   },
   {
-    name: "figma",
+    name: 'figma',
     icon: example,
   },
   {
-    name: "docker",
+    name: 'docker',
     icon: example,
   },
 ];
 
 const experiences = [
   {
-    title: "Example Stack Developer",
-    company_name: "Company Example",
+    title: 'Example Stack Developer',
+    company_name: 'Company Example',
     icon: example,
-    iconBg: "#383E56",
-    date: "date - example",
+    iconBg: '#383E56',
+    date: 'date - example',
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
     ],
   },
   {
-    title: "Example Stack Developer",
-    company_name: "Company Example",
+    title: 'Example Stack Developer',
+    company_name: 'Company Example',
     icon: example,
-    iconBg: "#E6DEDD",
-    date: "date - example",
+    iconBg: '#E6DEDD',
+    date: 'date - example',
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
     ],
   },
   {
-    title: "Example Stack Developer",
-    company_name: "Company Example",
+    title: 'Example Stack Developer',
+    company_name: 'Company Example',
     icon: example,
-    iconBg: "#383E56",
-    date: "date - example",
+    iconBg: '#383E56',
+    date: 'date - example',
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
     ],
   },
   {
-    title: "Example Stack Developer",
-    company_name: "Company Example",
+    title: 'Example Stack Developer',
+    company_name: 'Company Example',
     icon: example,
-    iconBg: "#E6DEDD",
-    date: "date - example",
+    iconBg: '#E6DEDD',
+    date: 'date - example',
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl."
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+    name: 'Sara Lee',
+    designation: 'CFO',
+    company: 'Acme Co',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: 'Chris Brown',
+    designation: 'COO',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Lisa Wang',
+    designation: 'CTO',
+    company: '456 Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg',
   },
 ];
 
 const projects = [
   {
-    name: "Example Work",
-    description:
-      "lorem ipsum example to description about what i work in the project and others stuff idk",
+    name: 'Example Work',
+    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
     tags: [
       {
-        name: "techUsed1",
-        color: "blue-text-gradient",
+        name: 'techUsed1',
+        color: 'blue-text-gradient',
       },
       {
-        name: "techUsed2",
-        color: "green-text-gradient",
+        name: 'techUsed2',
+        color: 'green-text-gradient',
       },
       {
-        name: "techUsed3",
-        color: "pink-text-gradient",
+        name: 'techUsed3',
+        color: 'pink-text-gradient',
       },
     ],
     image: example,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/',
   },
   {
-    name: "Example Work",
-    description:
-      "lorem ipsum example to description about what i work in the project and others stuff idk",
+    name: 'Example Work',
+    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
     tags: [
       {
-        name: "techUsed4",
-        color: "blue-text-gradient",
+        name: 'techUsed4',
+        color: 'blue-text-gradient',
       },
       {
-        name: "techUsed5",
-        color: "green-text-gradient",
+        name: 'techUsed5',
+        color: 'green-text-gradient',
       },
       {
-        name: "techUsed6",
-        color: "pink-text-gradient",
+        name: 'techUsed6',
+        color: 'pink-text-gradient',
       },
     ],
     image: example,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/',
   },
   {
-    name: "Example Work",
-    description:
-      "lorem ipsum example to description about what i work in the project and others stuff idk",
+    name: 'Example Work',
+    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
     tags: [
       {
-        name: "techUsed7",
-        color: "blue-text-gradient",
+        name: 'techUsed7',
+        color: 'blue-text-gradient',
       },
       {
-        name: "techUsed8",
-        color: "green-text-gradient",
+        name: 'techUsed8',
+        color: 'green-text-gradient',
       },
       {
-        name: "techUsed9",
-        color: "pink-text-gradient",
+        name: 'techUsed9',
+        color: 'pink-text-gradient',
       },
     ],
     image: example,
-    source_code_link: "https://github.com/",
+    source_code_link: 'https://github.com/',
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const footerIcons = {
+  social_media: [
+    {
+      name: 'github',
+      icon: github,
+      link: 'https://github.com/DaniCoppermind',
+    },
+    {
+      name: 'linkedin',
+      icon: linkedin,
+      link: 'https://www.linkedin.com/in/danigarciadev/',
+    },
+    {
+      name: 'x',
+      icon: x,
+      link: 'https://x.com/DaniCoppermind',
+    },
+  ],
+  contact: [
+    {
+      name: 'WhatsApp',
+      icon: whatsapp,
+      link: 'https://wa.me/123456789',
+    },
+    {
+      name: 'Telegram',
+      icon: telegram,
+      link: 'https://t.me/DaniCoppermind',
+    },
+  ],
+};
+
+export { services, technologies, experiences, testimonials, projects, footerIcons };
