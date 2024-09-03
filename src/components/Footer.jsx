@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {contacts.map((contact, i) => (
                 <li key={i}>
-                  <a href={contact.url} className="flex gap-2 items-center hover:text-white transition-colors">
+                  <a href={contact.url} target='_blank' className="flex gap-2 items-center hover:text-white transition-colors">
                     <img src={contact.icon} alt={contact.name} className="w-8 h-8" />
                     <span>{contact.name}</span>
                   </a>
