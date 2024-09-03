@@ -34,9 +34,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn('', '', 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque explicabo harum quidem id itaque perferendis
-        dicta ut perspiciatis consectetur veritatis quasi sint sit atque delectus consequuntur, pariatur odio iure
-        quaerat?
+        I&apos;m a passionated software developer with experience in Javascript (TypeScript), and working with frameworks like React, and Node.js. I&apos;m a lover learner and constanly collaborate closely with other projects to create efficient, scalable, and user-friendly solutions that solve problems. I want to be able and work together with you to bring your ideas to life!  
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

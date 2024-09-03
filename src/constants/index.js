@@ -1,6 +1,31 @@
-const example = 'https://cdn-icons-png.freepik.com/512/5167/5167510.png';
-
-import { github, linkedin, x, whatsapp, telegram } from '../assets';
+import {
+  web,
+  mobile,
+  backend,
+  creator,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  docker,
+  nestJS,
+  nextJS,
+  postgresql,
+  venezuelaHelp,
+  netflix,
+  godot,
+  jscambios,
+  github,
+  linkedin,
+  x,
+  whatsapp,
+  telegram,
+} from '../assets';
 
 export const navLinks = [
   {
@@ -19,204 +44,157 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'example 1 Developer',
-    icon: example,
+    title: 'Web Developer',
+    icon: web,
   },
   {
-    title: 'example 2 Developer',
-    icon: example,
+    title: 'React Developer',
+    icon: mobile,
   },
   {
-    title: 'example 3 Developer',
-    icon: example,
+    title: 'Backend Developer',
+    icon: backend,
   },
   {
-    title: 'example 4 Developer',
-    icon: example,
+    title: 'Nest | Express Developer',
+    icon: creator,
   },
 ];
 
 const technologies = [
   {
     name: 'HTML 5',
-    icon: example,
+    icon: html,
   },
   {
     name: 'CSS 3',
-    icon: example,
+    icon: css,
   },
   {
     name: 'JavaScript',
-    icon: example,
-  },
-  {
-    name: 'TypeScript',
-    icon: example,
-  },
-  {
-    name: 'React JS',
-    icon: example,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: example,
+    icon: javascript,
   },
   {
     name: 'Tailwind CSS',
-    icon: example,
+    icon: tailwind,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'NextJS',
+    icon: nextJS,
   },
   {
     name: 'Node JS',
-    icon: example,
+    icon: nodejs,
+  },
+  {
+    name: 'nestJS',
+    icon: nestJS,
   },
   {
     name: 'MongoDB',
-    icon: example,
+    icon: mongodb,
   },
   {
-    name: 'Three JS',
-    icon: example,
+    name: 'PostgreSQL',
+    icon: postgresql,
   },
   {
     name: 'git',
-    icon: example,
+    icon: git,
   },
   {
-    name: 'figma',
-    icon: example,
-  },
-  {
-    name: 'docker',
-    icon: example,
+    name: 'Docker',
+    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Example Stack Developer',
-    company_name: 'Company Example',
-    icon: example,
-    iconBg: '#383E56',
-    date: 'date - example',
-    points: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
-    ],
-  },
-  {
-    title: 'Example Stack Developer',
-    company_name: 'Company Example',
-    icon: example,
+    title: 'Frontend Contributor',
+    company_name: 'Anonymous Company',
+    icon: venezuelaHelp,
     iconBg: '#E6DEDD',
-    date: 'date - example',
+    date: 'August 2024 - Present',
     points: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
+      'Contributed to the development of a humanitarian website that received positive feedback from donors and professionals such as psychologists, doctors, and lawyers.',
+      'Utilized React, Tailwind, Git/Github, Astro, and Cloudflare to optimize UI components, reduce load times, and develop intereactive forms.',
+      "Learned advanced coding techniques, particularly in Astro and TypeScript, to enhance the project's persomance and maintainability.",
     ],
   },
   {
-    title: 'Example Stack Developer',
-    company_name: 'Company Example',
-    icon: example,
+    title: 'FullStack Developer',
+    company_name: 'Freelancer',
+    icon: netflix,
     iconBg: '#383E56',
-    date: 'date - example',
+    date: 'August 2024 - September 2024',
     points: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
+      'Collaborating directly with a client to develop a web application for purchasing Netflix accounts using criptocurrency payments',
+      'Responsible for creating and integrating frontend components with a custom API for Binance Pay, enabling secure and efficient cryptocurrency transactions using stripe.',
+      'Implementation of modern technologies including React for the frontend.',
     ],
   },
   {
-    title: 'Example Stack Developer',
-    company_name: 'Company Example',
-    icon: example,
+    title: 'Game Developer',
+    company_name: 'Gamesjan (Team Participation)',
+    icon: godot,
     iconBg: '#E6DEDD',
-    date: 'date - example',
+    date: 'july 2024 - August 2024',
     points: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non diam consequat magna pulvinar ornare. Donec ac justo sed metus vulputate rutrum ut eu mi. Nunc volutpat quam sit amet dignissim tincidunt. Mauris nulla urna, eleifend et sem ac, suscipit pretium nisl.',
+      'Contributed to game development by implementing logic, scenes, and animations in Godot, collaborating closely with a team of senior and mid-level developers',
+      'Gained valuable experience and mentorship from experienced developers, which enhanced my skills in code development and team collaboration.',
+    ],
+  },
+  {
+    title: 'Treasurer and Data Administrator',
+    company_name: 'J&S Cambios',
+    icon: jscambios,
+    iconBg: '#383E56',
+    date: 'February 2023 - April 2024',
+    points: [
+      "Managed financial data and customer activity records using Excel, ensuring accurate tracking and reporting for the company's operations.",
+      'Developed internal web interfaces using React to visualize financial data and improve decision-making processes for company owners.',
+      'Streamlined administrative processes, enhancing the efficiency of financial operations and contributing to the company’s growth.',
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: '',
+    name: '',
+    designation: '',
+    company: '',
+    image: '',
   },
 ];
 
 const projects = [
   {
-    name: 'Example Work',
-    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
+    name: '',
+    description: '',
     tags: [
       {
-        name: 'techUsed1',
+        name: '',
         color: 'blue-text-gradient',
       },
       {
-        name: 'techUsed2',
+        name: '',
         color: 'green-text-gradient',
       },
       {
-        name: 'techUsed3',
+        name: '',
         color: 'pink-text-gradient',
       },
     ],
-    image: example,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Example Work',
-    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
-    tags: [
-      {
-        name: 'techUsed4',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'techUsed5',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'techUsed6',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: example,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Example Work',
-    description: 'lorem ipsum example to description about what i work in the project and others stuff idk',
-    tags: [
-      {
-        name: 'techUsed7',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'techUsed8',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'techUsed9',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: example,
+    image: '',
     source_code_link: 'https://github.com/',
   },
 ];
@@ -226,29 +204,29 @@ const footerIcons = {
     {
       name: 'github',
       icon: github,
-      link: 'https://github.com/DaniCoppermind',
+      url: 'https://github.com/DaniCoppermind',
     },
     {
       name: 'linkedin',
       icon: linkedin,
-      link: 'https://www.linkedin.com/in/danigarciadev/',
+      url: 'https://www.linkedin.com/in/danigarciadev/',
     },
     {
       name: 'x',
       icon: x,
-      link: 'https://x.com/DaniCoppermind',
+      url: 'https://x.com/DaniCoppermind',
     },
   ],
   contact: [
     {
       name: 'WhatsApp',
       icon: whatsapp,
-      link: 'https://wa.me/123456789',
+      url: 'https://wa.me/123456789',
     },
     {
       name: 'Telegram',
       icon: telegram,
-      link: 'https://t.me/DaniCoppermind',
+      url: 'https://t.me/DaniCoppermind',
     },
   ],
 };
