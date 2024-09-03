@@ -5,15 +5,9 @@ import {
   creator,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
   tailwind,
   nodejs,
-  mongodb,
-  git,
-  docker,
-  nestJS,
   nextJS,
   postgresql,
   venezuelaHelp,
@@ -68,14 +62,6 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -100,24 +86,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'nestJS',
-    icon: nestJS,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
     name: 'PostgreSQL',
     icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'Docker',
-    icon: docker,
   },
 ];
 
