@@ -20,8 +20,8 @@ const Hero = () => {
             <span className="bg-gradient-to-l from-red-500 to-orange-500 text-transparent bg-clip-text">Daniel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Lorem Ipsum is simply dummy text <br className="sm:block hidden" />
-            of the printing and typesetting industry.
+            Frontend Web Design <br className="sm:block hidden" />
+            Developer &amp; UI/UX Designer
           </p>
         </div>
       </div>
