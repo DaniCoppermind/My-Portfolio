@@ -221,12 +221,12 @@ const footerIcons = {
     {
       name: 'WhatsApp',
       icon: whatsapp,
-      url: 'https://wa.me/123456789',
+      url: 'https://wa.me/584247094207',
     },
     {
       name: 'Telegram',
       icon: telegram,
-      url: 'https://t.me/DaniCoppermind',
+      url: 'https://t.me/dani_coppermind',
     },
   ],
 };
