@@ -18,6 +18,7 @@ import {
   x,
   whatsapp,
   telegram,
+  mockup
 } from '../assets';
 
 export const navLinks = [
@@ -148,24 +149,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: '',
-    description: '',
+    name: 'Mockup Landing Page',
+    description: 'Mockup for a client',
     tags: [
       {
-        name: '',
+        name: 'Astro',
         color: 'blue-text-gradient',
       },
       {
-        name: '',
+        name: 'Tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: '',
+        name: 'Shadcn',
         color: 'pink-text-gradient',
       },
     ],
-    image: '',
-    source_code_link: 'https://github.com/',
+    deploy: 'https://mockup-client.vercel.app/',
+    image: mockup,
+    source_code_link: 'https://github.com/DaniCoppermind/mockup-client',
   },
 ];
 

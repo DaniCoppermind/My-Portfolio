@@ -20,6 +20,7 @@ import godot from './company/godot.png';
 import jscambios from './company/jscambios.png';
 
 // projects
+import mockup from './mockup.png'
 
 import x from './x.png';
 import linkedin from './linkedin.png';
@@ -47,6 +48,7 @@ export {
   godot,
   jscambios,
   x,
+  mockup,
   linkedin,
   telegram,
   whatsapp,

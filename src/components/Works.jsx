@@ -7,7 +7,7 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, deploy, source_code_link }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <img src={image} alt={name} className="w-full h-full  rounded-2xl"></img> 
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -34,6 +34,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <a href={deploy} target='_blank'>Visit Project</a>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
