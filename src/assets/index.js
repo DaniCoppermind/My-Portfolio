@@ -11,7 +11,8 @@ import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import nextJS from './tech/nextJS.png';
+// import nextJS from './tech/nextJS.png';
+import astro from './tech/astro.png';
 import postgresql from './tech/postgresql.png';
 
 import venezuelaHelp from './company/venezuelaHelp.png';
@@ -40,7 +41,8 @@ export {
   tailwind,
   typescript,
   reactjs,
-  nextJS,
+  // nextJS,
+  astro,
   nodejs,
   postgresql,
   venezuelaHelp,

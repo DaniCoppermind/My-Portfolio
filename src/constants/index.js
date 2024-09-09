@@ -7,7 +7,8 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  nextJS,
+  astro,
+  // nextJS,
   postgresql,
   venezuelaHelp,
   netflix,
@@ -74,8 +75,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'NextJS',
-    icon: nextJS,
+    name: 'Astro',
+    icon: astro,
   },
   {
     name: 'Node JS',
