@@ -91,7 +91,7 @@ const technologies = [
 const experiences = [
   {
     title: 'Frontend Contributor',
-    company_name: 'Anonymous Company',
+    company_name: 'venezuelahelp.org',
     icon: venezuelaHelp,
     iconBg: '#E6DEDD',
     date: 'August 2024 - Present',
@@ -126,7 +126,7 @@ const experiences = [
   },
   {
     title: 'Treasurer and Data Administrator',
-    company_name: 'J&S Cambios',
+    company_name: '@_jscambios',
     icon: jscambios,
     iconBg: '#383E56',
     date: 'February 2023 - April 2024',
