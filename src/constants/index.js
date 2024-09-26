@@ -19,7 +19,8 @@ import {
   x,
   whatsapp,
   telegram,
-  mockup
+  mockup,
+  bankApp
 } from '../assets';
 
 export const navLinks = [
@@ -158,7 +159,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
         color: 'green-text-gradient',
       },
       {
@@ -170,6 +171,39 @@ const projects = [
     image: mockup,
     source_code_link: 'https://github.com/DaniCoppermind/mockup-client',
   },
+  {
+    name: 'Bank Application',
+    description: 'Design and build a complex bank utility application (for testing you can use test@user.com - test12345)',
+    tags: [
+      {
+        name: 'Next.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Shadcn',
+        color: 'black-text-gradient',
+      },
+      {
+        name: 'Appwrite',
+        color: 'blue-text-gradient',
+      }  ,    
+      {
+        name: 'Dwolla',
+        color: 'blue-text-gradient',
+      }
+    ],
+    deploy: 'https://bank-app-nine-gules.vercel.app/sign-in',
+    image: bankApp,
+    source_code_link: 'https://github.com/DaniCoppermind/bank-app',
+  }
 ];
 
 const footerIcons = {

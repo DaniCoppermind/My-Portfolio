@@ -22,6 +22,7 @@ import jscambios from './company/jscambios.png';
 
 // projects
 import mockup from './mockup.png'
+import bankApp from './bank-app.png'
 
 import x from './x.png';
 import linkedin from './linkedin.png';
@@ -51,6 +52,7 @@ export {
   jscambios,
   x,
   mockup,
+  bankApp,
   linkedin,
   telegram,
   whatsapp,
