@@ -19,7 +19,7 @@ const ProjectCard = ({ index, name, description, tags, image, deploy, source_cod
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img src={image} alt={name} className="w-full h-full  rounded-2xl"></img> 
+          <img src={image} alt={name} className="w-full h-full rounded-2xl"></img> 
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -33,7 +33,7 @@ const ProjectCard = ({ index, name, description, tags, image, deploy, source_cod
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] mb-2">{description}</p>
           <a href={deploy} target='_blank'>Visit Project</a>
         </div>
 
