@@ -15,7 +15,7 @@ import tailwind from './tech/tailwind.png'
 import nextJS from './tech/nextJS.png'
 import astro from './tech/astro.png'
 import postgresql from './tech/postgresql.png'
-import mongoDB from './tech/mongodb.png'
+import mongoDB from './tech/mongoDB.png'
 
 // Experience
 import venezuelaHelp from './company/venezuelaHelp.png'
