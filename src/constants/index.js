@@ -2,14 +2,12 @@ import {
   web,
   mobile,
   backend,
-  creator,
-  typescript,
+  mongoDB,
   reactjs,
   tailwind,
   nodejs,
   astro,
-  // nextJS,
-  postgresql,
+  nextJS,
   venezuelaHelp,
   netflix,
   godot,
@@ -20,8 +18,9 @@ import {
   whatsapp,
   telegram,
   mockup,
-  bankApp
-} from '../assets';
+  libreriaDeLasTormentas,
+  javitoPortfolio,
+} from '../assets'
 
 export const navLinks = [
   {
@@ -36,16 +35,11 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
-  {
-    id: 'cv',
-    title: 'CV',
-    ref: '../../public/cv.pdf' 
-  }
-];
+]
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Full-Stack Web Developer',
     icon: web,
   },
   {
@@ -53,41 +47,37 @@ const services = [
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Node.JS Developer',
     icon: backend,
   },
-  {
-    title: 'Nest | Express Developer',
-    icon: creator,
-  },
-];
+]
 
 const technologies = [
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
+    name: 'ReactJS',
     icon: reactjs,
+  },
+  {
+    name: 'NodeJS',
+    icon: nodejs,
+  },
+  {
+    name: 'TailwindCSS',
+    icon: tailwind,
   },
   {
     name: 'Astro',
     icon: astro,
   },
   {
-    name: 'Node JS',
-    icon: nodejs,
+    name: 'Nextjs',
+    icon: nextJS,
   },
   {
-    name: 'PostgreSQL',
-    icon: postgresql,
+    name: 'MongoDB',
+    icon: mongoDB,
   },
-];
+]
 
 const experiences = [
   {
@@ -137,7 +127,7 @@ const experiences = [
       'Streamlined administrative processes, enhancing the efficiency of financial operations and contributing to the company’s growth.',
     ],
   },
-];
+]
 
 const testimonials = [
   {
@@ -147,7 +137,7 @@ const testimonials = [
     company: '',
     image: '',
   },
-];
+]
 
 const projects = [
   {
@@ -170,10 +160,12 @@ const projects = [
     deploy: 'https://mockup-client.vercel.app/',
     image: mockup,
     source_code_link: 'https://github.com/DaniCoppermind/mockup-client',
+    codePrivate: false,
   },
   {
-    name: 'Bank Application',
-    description: 'Design and build a complex bank utility application (for testing you can use test@user.com - test12345)',
+    name: 'Libreria de las Tormentas',
+    description:
+      'Personal Bookshelf of my favorites writers and a personal challenge by learning NextJS | Typescript',
     tags: [
       {
         name: 'Next.js',
@@ -188,23 +180,58 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'Shadcn',
+        name: 'MongoDB',
         color: 'black-text-gradient',
       },
       {
-        name: 'Appwrite',
-        color: 'blue-text-gradient',
-      }  ,    
+        name: 'Node.JS',
+        color: 'text-yellow-300',
+      },
       {
-        name: 'Dwolla',
-        color: 'blue-text-gradient',
-      }
+        name: 'Cloudinary',
+        color: 'text-amber-500',
+      },
     ],
-    deploy: 'https://bank-app-nine-gules.vercel.app/sign-in',
-    image: bankApp,
-    source_code_link: 'https://github.com/DaniCoppermind/bank-app',
-  }
-];
+    deploy: 'https://libreria-de-las-tormentas.vercel.app',
+    image: libreriaDeLasTormentas,
+    source_code_link: '#',
+    codePrivate: true,
+  },
+  {
+    name: 'Editor Videos Portfolio',
+    description: 'Freelance Personal Portfolio for a Client.',
+    tags: [
+      {
+        name: 'React.JS',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'React Query',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'MongoDB',
+        color: 'black-text-gradient',
+      },
+      {
+        name: 'Node.JS',
+        color: 'text-yellow-300',
+      },
+      {
+        name: 'i18next',
+        color: 'text-amber-500',
+      },
+    ],
+    deploy: 'https://javito-portafolio-frontend.onrender.com/es',
+    image: javitoPortfolio,
+    source_code_link: 'https://github.com/DaniCoppermind/javito-portafolio',
+    codePrivate: false,
+  },
+]
 
 const footerIcons = {
   social_media: [
@@ -221,14 +248,14 @@ const footerIcons = {
     {
       name: 'x',
       icon: x,
-      url: 'https://x.com/DaniCoppermind',
+      url: 'https://x.com/DanielG.',
     },
   ],
   contact: [
     {
       name: 'WhatsApp',
       icon: whatsapp,
-      url: 'https://wa.me/584247094207',
+      url: 'https://wa.me/33621237260',
     },
     {
       name: 'Telegram',
@@ -236,6 +263,13 @@ const footerIcons = {
       url: 'https://t.me/dani_coppermind',
     },
   ],
-};
+}
 
-export { services, technologies, experiences, testimonials, projects, footerIcons };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  footerIcons,
+}
